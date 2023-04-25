@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+    <body>
+        <p id="pri">2</p>
+        <p id="sec">3</p>
+        <p id="som">?</p>
+
+        <script>
+        
+            const p1 = document.getElementById('pri');
+            const p2 = document.getElementById('sec');
+            const p3 = document.getElementById('som');
+
+            const v1 = Number(p1.innerText);
+            const v2 = Number(p2.innerText);
+            const resultado = v1+v2;
+
+            p3.innerText = resultado;
+
+            //p3.innerText = p1.innerText + p2.innerText;
+
+        </script>
+
+    </body>
+</html>
