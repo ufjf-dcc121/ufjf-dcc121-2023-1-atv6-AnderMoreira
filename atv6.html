@@ -21,10 +21,11 @@
             id: 1,
             nome: 'Fulano',
             idade: 15,
-            envelhecer: (){
+            envelhecer: function() {
                 this.idade++;
             }
         };
+        pessoa.envelhecer();
         console.log(pessoa);
     </script>
 
