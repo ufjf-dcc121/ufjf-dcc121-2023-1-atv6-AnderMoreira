@@ -17,7 +17,14 @@
     <script>
         console.log('Hello, World!');
         let pessoa;
-        pessoa = null;
+        pessoa = {
+            id: 1,
+            nome: 'Fulano',
+            idade: 15,
+            envelhecer: (){
+                this.idade++;
+            }
+        };
         console.log(pessoa);
     </script>
 
